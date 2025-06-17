@@ -1,8 +1,8 @@
-numpy==2.1.0
+numpy
 pandas
 seaborn
 matplotlib
 streamlit
-streamlit-pandas-profiling
 ydata-profiling
 scikit-learn
+altair
