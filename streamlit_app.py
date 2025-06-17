@@ -8,7 +8,7 @@ import seaborn as sns
 import streamlit as st
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
-from ydata_profiling import ProfileReport
+#from ydata_profiling import ProfileReport
 import streamlit.components.v1 as components
 from datetime import datetime
 
