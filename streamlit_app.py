@@ -235,21 +235,6 @@ elif page == "Visualization 📊":
 
     st.caption("© 2025 Used-Car Explorer | Yazn & Ann-Mei")
 
-
-'''
-elif page == "Automated Report 📑":
-    st.title("📑 Automated Data Profiling Report")
-    if st.button("Generate Report"):
-        with st.spinner("Generating report..."):
-            profile = ProfileReport(df, title="Used Car Report", explorative=True, minimal=True)
-            components.html(profile.to_html(), height=1000, scrolling=True)
-
-
-        export = profile.to_html()
-        st.download_button(label="📥 Download full Report",data=export,file_name="used_car_report.html",mime='text/html')
-
-    st.caption("© 2025 Used-Car Explorer | Yazn & Ann-Mei")
-'''
 elif page == "Prediction 🔮":
     from sklearn.linear_model import LinearRegression
     from sklearn.model_selection import train_test_split
