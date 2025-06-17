@@ -3,6 +3,6 @@ pandas
 seaborn
 matplotlib
 streamlit
-ydata-profiling
+ydata-profiling<4.13
 scikit-learn
 altair
