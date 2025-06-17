@@ -53,7 +53,7 @@ if page == "Introduction 🚘":
 
     # Title
     st.title("🏁 Welcome to the Used-Car Explorer App")
-    st.image("Used-Vehicles-banner.png", use_column_width=True)
+    st.image("Used-Vehicles-banner.png", use_container_width=True)
     st.markdown(
         '''
         Welcome to the ultimate dashboard for **Used-Car Data Exploration**!  
