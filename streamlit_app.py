@@ -21,7 +21,7 @@ st.set_page_config(
 
 ## Step 01 - Setup
 st.sidebar.title("🚗Used-Car Data Exploration Tool🚙")
-page = st.sidebar.selectbox("Select Page",["Introduction 🚘","Visualization 📊", "Automated Report 📑", "Prediction 🔮"])
+page = st.sidebar.selectbox("Select Page",["Introduction 🚘","Visualization 📊", "Prediction 🔮"])
 
 
 #st.video("video.mp4")
@@ -236,7 +236,7 @@ elif page == "Visualization 📊":
     st.caption("© 2025 Used-Car Explorer | Yazn & Ann-Mei")
 
 
-
+'''
 elif page == "Automated Report 📑":
     st.title("📑 Automated Data Profiling Report")
     if st.button("Generate Report"):
@@ -249,7 +249,7 @@ elif page == "Automated Report 📑":
         st.download_button(label="📥 Download full Report",data=export,file_name="used_car_report.html",mime='text/html')
 
     st.caption("© 2025 Used-Car Explorer | Yazn & Ann-Mei")
-
+'''
 elif page == "Prediction 🔮":
     from sklearn.linear_model import LinearRegression
     from sklearn.model_selection import train_test_split
