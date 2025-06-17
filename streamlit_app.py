@@ -56,7 +56,7 @@ if page == "Introduction 🚘":
     st.image("Used-Vehicles-banner.png", use_container_width=True)
     st.markdown(
         '''
-        Wwwelcome to the ultimate dashboard for **Used-Car Data Exploration**!  
+        Welcome to the ultimate dashboard for **Used-Car Data Exploration**!  
         Navigate through the sidebar to:
         - 📊 Explore car data & price trends
         - 🔮 Evaluate custom car examples using Linear Regression
