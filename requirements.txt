@@ -2,7 +2,5 @@ numpy
 pandas
 seaborn
 matplotlib
-streamlitAdd commentMore actions
-streamlit-pandas-profiling
 scikit-learn
 altair
